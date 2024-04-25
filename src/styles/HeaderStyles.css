@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-menu li {
+  margin: 0 20px;
+}
+
+.nav-menu li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.active {
+  color: forestgreen !important;
+  font-weight: bold !important;
+}
+
+/* mobile-view */
+.mobile-nav {
+  list-style: none;
+}
+
+.mobile-nav li {
+  margin-top: 20px;
+}
+
+.mobile-nav li a {
+  text-decoration: none;
+  font-size: 1.4rem;
+  color: #000;
+}
+
+.mobile-nav li a:hover,
+.nav-menu li a:hover {
+  color: forestgreen;
+}
